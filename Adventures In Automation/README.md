@@ -74,24 +74,35 @@ All greek, right?  Well, no fear, we'll walk thru a full example - in fact we're
 Right now, this project exists as just a folder on my local machine and one <span>README.md</span> (we'll talk about MarkDown and READMEs in a later topic).
 
 1. Open a browser and go to [Github network-vip repo](https://github.com/bluecatlabs/network-vip).  Login with your github account...
-![github-bluecatlabs-network-vip.jpg](/github-pics/github-bluecatlabs-network-vip.jpg)
+![github-bluecatlabs-network-vip.jpg](github-pics/github-bluecatlabs-network-vip.jpg)
 2. You'll want to Fork a copy of the repo to your github account - click the Fork button
-![github-bluecatlabs-network-vip-fork-circled.jpg](/github-pics/github-bluecatlabs-network-vip-fork-circled.jpg)
+![github-bluecatlabs-network-vip-fork-circled.jpg](github-pics/github-bluecatlabs-network-vip-fork-circled.jpg)
 you should land in your Github account with a "fork" or copy of the network-vip repo.  "jmacy-cern" is my account name, so you should see *your* account name instead.
-![github-my-forked-network-vip.jpg](/github-pics/github-my-forked-network-vip.jpg)
+![github-my-forked-network-vip.jpg](github-pics/github-my-forked-network-vip.jpg)
 3. Now, you want to do work on the repo so we will Clone it to your local machine.  Click on Code and select "Open with Github Desktop"
-![github-my-forked-network-vip-clone-circled.jpg](/github-pics/github-my-forked-network-vip-clone-circled.jpg)
+![github-my-forked-network-vip-clone-circled.jpg](github-pics/github-my-forked-network-vip-clone-circled.jpg)
 This will open your Desktop client and prompt you to complete the clone.  Generally the defaults already filled in are sufficient.
-![github-bluecatlabs-network-vip-clone-to-desktop.jpg](/github-pics/github-bluecatlabs-network-vip-clone-to-desktop.jpg)
+![github-bluecatlabs-network-vip-clone-to-desktop.jpg](github-pics/github-bluecatlabs-network-vip-clone-to-desktop.jpg)
 Click Clone.  It should leave you in the Desktop client at your cloned repo
-![github-bluecatlabs-network-vip-clone-in-desktop.jpg](/github-pics/github-bluecatlabs-network-vip-clone-in-desktop.jpg)
+![github-bluecatlabs-network-vip-clone-in-desktop.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop.jpg)
 4. At this point, from a source control standpoint, I'm ready to do some work.  In this case, I'm going to create a Branch to add the Adventures in Automation files.
-![github-bluecatlabs-network-vip-clone-in-desktop-branch1.jpg](/github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch1.jpg)
+![github-bluecatlabs-network-vip-clone-in-desktop-branch1.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch1.jpg)
+
 Click on New Branch
-![github-bluecatlabs-network-vip-clone-in-desktop-branch2.jpg](/github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch2.jpg)
+
+![github-bluecatlabs-network-vip-clone-in-desktop-branch2.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch2.jpg)
+
 Once I have my branch defined, I need to update from my clone to my forked network-vip project - you do that with Publish
-![github-bluecatlabs-network-vip-clone-in-desktop-branch-publish.jpg](/github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch-publish.jpg)
+![github-bluecatlabs-network-vip-clone-in-desktop-branch-publish.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch-publish.jpg)
+
 And finally! I'll add the files I've been collecting to my clone
 
+![github-bluecatlabs-network-vip-clone-in-desktop-branch-ready-to-commit.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch-ready-to-commit.jpg)
+
+5. Commit my changes by filling out the Summary and Description, Click on Commit
+![github-bluecatlabs-network-vip-clone-in-desktop-branch-committed.jpg](github-pics/github-bluecatlabs-network-vip-clone-in-desktop-branch-ready-to-committed.jpg)
+6. I now need to update my fork with the changes, click on Push origin
+My fork has my branch and contents on the Remote (Github).  Next up is getting it merged into the main repo
+7. Create a Pull Request
 
 So, you may have noticed something about the above workflow...you never saw me use the integrated Git functionality in VSCode, right?  For me that is just a personal choice.  On initial release, Git functionality in VSCode was pretty limited and I already had a workflow that worked for me so I haven't changed it.  As well, not every IDE or tool I've used has had direct integration, so sticking to my established workflow serves me no matter what I'm doing or using at a given time.
